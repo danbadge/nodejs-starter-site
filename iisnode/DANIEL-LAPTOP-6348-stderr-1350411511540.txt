@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+Error: Cannot find module 'public/javascripts/locals'
+    at Function._resolveFilename (module.js:337:11)
+    at Function._load (module.js:279:25)
+    at Module.require (module.js:359:17)
+    at require (module.js:375:17)
+    at HTTPServer.<anonymous> (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\server.js:16:11)
+    at HTTPServer.configure (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\http.js:542:61)
+    at Object.<anonymous> (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\server.js:13:5)
+    at Module._compile (module.js:446:26)
+    at Object..js (module.js:464:10)
+    at Module.load (module.js:353:31)

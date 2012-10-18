@@ -1,0 +1,18 @@
+ReferenceError: C:\Users\Daniel\Documents\My Web Sites\Watts Empire/views/layout.jade:7
+    5|     link(rel='stylesheet', href='/stylesheets/style.css')
+    6|     
+  > 7|     script(src=base + '/javascripts/jquery-1.7.min.js')
+    8|     script(src=base + '/javascripts/modernizr.js')    
+    9|   body!= body
+
+base is not defined
+    at eval at <anonymous> (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\jade\lib\jade.js:160:8)
+    at Object.<anonymous> (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\jade\lib\jade.js:165:12)
+    at ServerResponse._render (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\view.js:425:21)
+    at ServerResponse.render (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\view.js:318:17)
+    at ServerResponse._render (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\view.js:432:10)
+    at ServerResponse.render (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\view.js:318:17)
+    at C:\Users\Daniel\Documents\My Web Sites\Watts Empire\routes\index.js:6:7
+    at callbacks (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\router\index.js:272:11)
+    at param (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\router\index.js:246:11)
+    at pass (C:\Users\Daniel\Documents\My Web Sites\Watts Empire\node_modules\express\lib\router\index.js:253:5)
